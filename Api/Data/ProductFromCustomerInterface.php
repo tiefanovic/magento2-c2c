@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Api\Data;
+namespace AWstreams\C2C\Api\Data;
 
 /**
  * @api

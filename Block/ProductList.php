@@ -1,8 +1,8 @@
 <?php
 
-namespace TurgayOzgur\C2C\Block;
+namespace AWstreams\C2C\Block;
 
-use TurgayOzgur\C2C\Api\Data\ProductFromCustomerInterface;
+use AWstreams\C2C\Api\Data\ProductFromCustomerInterface;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Framework\Api\FilterBuilder;
 use Magento\Framework\Api\SearchCriteriaBuilder;

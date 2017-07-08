@@ -1,13 +1,13 @@
 <?php
 
-namespace TurgayOzgur\C2C\Controller\Index;
+namespace AWstreams\C2C\Controller\Index;
 
 use Magento\Framework\App\Action\Context as ActionContext;
 use Magento\Catalog\Controller\Adminhtml\Product\Builder as ProductBuilder;
 use Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper as ProductInitializationHelper;
 use Magento\Framework\View\Result\PageFactory;
 
-class Post extends \TurgayOzgur\C2C\Controller\Index
+class Post extends \AWstreams\C2C\Controller\Index
 {
     /**
      * @var \Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper
@@ -61,7 +61,7 @@ class Post extends \TurgayOzgur\C2C\Controller\Index
             return $resultRedirect;
         }
 
-        /** @var \TurgayOzgur\C2C\Model\ProductFromCustomer $product */
+        /** @var \AWstreams\C2C\Model\ProductFromCustomer $product */
         $product = $this->initializationHelper->initialize($this->productBuilder->build($request));
         $this->productTypeManager->processProduct($product);
 

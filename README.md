@@ -5,4 +5,4 @@ Magento2 customer to customer(c2c) marketplace module.
 
 Specify the version of you need
 
-```composer require turgayozgur/c2c:2.0.0```
+```composer require AWstreams/c2c:2.0.0```

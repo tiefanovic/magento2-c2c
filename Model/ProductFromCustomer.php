@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Model;
+namespace AWstreams\C2C\Model;
 
 use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\Catalog\Api\Data\ProductInterface;
@@ -10,7 +10,7 @@ use Magento\Framework\Object\IdentityInterface;
 use Magento\Framework\Pricing\Object\SaleableInterface;
 use Magento\Catalog\Api\Data\ProductAttributeMediaGalleryEntryInterface;
 use Magento\Framework\Api\Data\ImageContentInterface;
-use TurgayOzgur\C2C\Api\Data\ProductFromCustomerInterface;
+use AWstreams\C2C\Api\Data\ProductFromCustomerInterface;
 
 /**
  * C2C product model
@@ -143,7 +143,7 @@ class ProductFromCustomer extends \Magento\Catalog\Model\Product implements
      */
     protected function _construct()
     {
-        $this->_init('TurgayOzgur\C2C\Model\Resource\ProductFromCustomer');
+        $this->_init('AWstreams\C2C\Model\Resource\ProductFromCustomer');
     }
 
     /**

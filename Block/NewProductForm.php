@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Block;
+namespace AWstreams\C2C\Block;
 
 use Magento\Framework\View\Element\Template;
 

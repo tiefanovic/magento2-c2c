@@ -1,11 +1,11 @@
 <?php
 
-namespace TurgayOzgur\C2C\Controller\Index;
+namespace AWstreams\C2C\Controller\Index;
 
 use Magento\Framework\App\Action\Context as ActionContext;
 use Magento\Framework\View\Result\PageFactory;
 
-class Image extends \TurgayOzgur\C2C\Controller\Index
+class Image extends \AWstreams\C2C\Controller\Index
 {
     /**
      * @var \Magento\Framework\Controller\Result\JsonFactory
@@ -49,8 +49,8 @@ class Image extends \TurgayOzgur\C2C\Controller\Index
             );
         }
 
-        /** @var \TurgayOzgur\C2C\Helper\Data $dataHelper */
-        $dataHelper = $this->_objectManager->get('TurgayOzgur\C2C\Helper\Data');
+        /** @var \AWstreams\C2C\Helper\Data $dataHelper */
+        $dataHelper = $this->_objectManager->get('AWstreams\C2C\Helper\Data');
 
         $path = $dataHelper->uploadImage('file');
 

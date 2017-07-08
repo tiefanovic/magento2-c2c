@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Controller;
+namespace AWstreams\C2C\Controller;
 
 use Magento\Framework\App\RequestInterface;
 

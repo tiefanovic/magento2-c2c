@@ -11,7 +11,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="TurgayOzgur\C2C\Block\NewProductForm" name="turgayozgur.newproduct" template="TurgayOzgur_C2C::newproduct.phtml"/>
+            <block class="AWstreams\C2C\Block\NewProductForm" name="AWstreams.newproduct" template="TurgayOzgur_C2C::newproduct.phtml"/>
         </referenceContainer>
     </body>
 </page>

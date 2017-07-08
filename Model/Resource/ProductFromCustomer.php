@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Model\Resource;
+namespace AWstreams\C2C\Model\Resource;
 
 /**
  * ProductFromCustomer mysql resource

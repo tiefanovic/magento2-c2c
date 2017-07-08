@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Helper;
+namespace AWstreams\C2C\Helper;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 

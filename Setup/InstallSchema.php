@@ -1,6 +1,6 @@
 <?php
 
-namespace TurgayOzgur\C2C\Setup;
+namespace AWstreams\C2C\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
